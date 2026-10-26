@@ -1,15 +1,15 @@
 import java.util.Iterator;
 
-public class JAGArrayList<E> implements Iterable<E> {
+public class JagArrayList<E> implements Iterable<E> {
 
    private E[] array;
    private int size;
 
-   public JAGArrayList(int num) {
+   public JagArrayList(int num) {
       array = (E[]) new Object[num];
    }
 
-   public JAGArrayList() {
+   public JagArrayList() {
       array = (E[]) new Object[10];
    }
 
@@ -115,7 +115,7 @@ public class JAGArrayList<E> implements Iterable<E> {
    }
 
    public static void main(String[] args) {
-      JAGArrayList<Integer> list = new JAGArrayList<>();
+      JagArrayList<Integer> list = new JagArrayList<>();
       for (int i = 0; i < 10; i++)
          list.add(i);
       System.out.println(list + "Size: " + list.size());

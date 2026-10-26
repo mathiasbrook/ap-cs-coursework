@@ -140,7 +140,7 @@ public class IndexMaker {
    }
 }
 
-class DocumentIndex extends JAGArrayList<IndexEntry> {
+class DocumentIndex extends JagArrayList<IndexEntry> {
 
    public DocumentIndex() {
       super();
@@ -175,11 +175,11 @@ class DocumentIndex extends JAGArrayList<IndexEntry> {
 
 class IndexEntry implements Comparable<IndexEntry> {
    private String word;
-   private JAGArrayList<Integer> numsList;
+   private JagArrayList<Integer> numsList;
 
    public IndexEntry(String w) {
       word = w;
-      numsList = new JAGArrayList<>();
+      numsList = new JagArrayList<>();
    }
 
    public void add(int num) {
