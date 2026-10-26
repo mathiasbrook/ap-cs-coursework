@@ -1,6 +1,6 @@
 # AP CS Coursework
 
-Java programs I wrote for AP Computer Science and my data structures class (2021-2026). It's organized by topic so it's easy to find things. My bigger projects each have their own repo (Mancala, Tic-Tac-Toe, Mastermind, McRonald queue simulation, AVL tree, Battleship).
+Java programs I wrote for AP Computer Science and my data structures class (2021-2026). It's organized by topic so it's easy to find things. My bigger projects each have their own repo: [Mancala](https://github.com/mathiasbrook/mancala), [Tic-Tac-Toe](https://github.com/mathiasbrook/tic-tac-toe), [Mastermind](https://github.com/mathiasbrook/mastermind), [McRonald queue simulation](https://github.com/mathiasbrook/mcronald-queue-sim), [AVL tree](https://github.com/mathiasbrook/avl-tree) and [Battleship](https://github.com/mathiasbrook/battleship).
 
 ## Folders
 
