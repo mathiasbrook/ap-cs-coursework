@@ -7,7 +7,7 @@ public class Time{
    public Time(int h,int m){
       h = Math.max(h, 0); //turn negative hours into 0
       m = Math.max(m, 0); //turn negative minutes into 0
-      hour = h; set //set permanent hour to h
+      hour = h; //set permanent hour to h
       increment(m); //increment time if minutes are over 59
    }
    
